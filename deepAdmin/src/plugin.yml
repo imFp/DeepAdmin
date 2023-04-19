@@ -1,0 +1,47 @@
+name: deepAdmin
+version: 1.0-SNAPSHOT
+main: me.deep.Main
+commands:
+  ss:
+    description: "Comando para botar alguém em modo de ScreenShare"
+    permission: "mod.ss"
+    usage: "/ss <player>"
+  vanish:
+    description: "Comando para ficar invisível aos que não tem admin"
+    permission: "mod.vanish"
+    usage: "/vanish"
+  ban:
+    description: "Comando para você banir alguém permanentemente"
+    permission: "mod.ban"
+    usage: "/ban <player> <motivo>"
+  tempban:
+    description: "Comando para você banir alguém temporariamente"
+    permission: "mod.tempban"
+    usage: "/tempban <player> <tempo> <motivo>"
+  unban:
+    description: "Comando para você desbanir alguém"
+    permission: "mod.unban"
+    usage: "/unban <player>"
+  kick:
+    description: "Comando para você kickar alguém"
+    permission: "mod.kick"
+    usage: "/kick <player> <motivo>"
+  v:
+    description: "Comando para ficar invisível aos que não tem admin"
+    permission: "mod.vanish"
+    usage: "/v"
+  gm:
+    description: "Comando para mudar seu modo de jogo"
+    permission: "mod.gamemode"
+    usage: "/gm <mode>"
+  gamemode:
+    description: "Comando para mudar seu modo de jogo"
+    permission: "mod.gamemode"
+    usage: "/gamemode <mode>"
+  report:
+    description: "Reporta um jogador por uso de hack"
+    usage: "/report <player> <motivo>"
+  fly:
+    description: "Permite você voar no survival"
+    permission: "mod.fly"
+    usage: "/fly"
